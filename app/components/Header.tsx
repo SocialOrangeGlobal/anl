@@ -69,11 +69,18 @@ export default function Header() {
                   { label: 'Schedules', href: '/schedule-search' },
                   { label: 'About us', href: '/about-us' },
                   { label: 'Find your local offices', href: '/local-offices' },
-                  { label: 'My Customer Service', href: '/contact' },
+                  { label: 'My Customer Service', href: '#' },
                   { label: 'Guides', href: '/guides' },
                   { label: 'The CMA CGM Group', href: '/the-cma-cgm-group' },
                 ].map((link) => (
-                  <Link key={link.label} href={link.href} className="text-[11px] lg:text-[13px] font-normal text-[#254674] hover:text-[#e02020] transition-colors whitespace-nowrap">
+                  <Link 
+                    key={link.label} 
+                    href={link.href} 
+                    onClick={(e) => {
+                      if (link.href === '#') e.preventDefault();
+                    }}
+                    className="text-[11px] lg:text-[13px] font-normal text-[#254674] hover:text-[#e02020] transition-colors whitespace-nowrap"
+                  >
                     {link.label}
                   </Link>
                 ))}
@@ -139,7 +146,11 @@ export default function Header() {
 
                 <div className="w-px h-4 bg-[#254674]/30" />
 
-                <Link href="/news" className="nav-link border-b-2 border-transparent text-[#254674] hover:text-[#e02020] transition-all font-normal text-[13px] xl:text-[15px] px-3 xl:px-5">
+                <Link 
+                  href="#" 
+                  onClick={(e) => e.preventDefault()}
+                  className="nav-link border-b-2 border-transparent text-[#254674] hover:text-[#e02020] transition-all font-normal text-[13px] xl:text-[15px] px-3 xl:px-5"
+                >
                   News
                 </Link>
 
