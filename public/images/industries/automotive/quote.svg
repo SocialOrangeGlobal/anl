@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="38px" viewBox="0 0 50 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>’’</title>
+    
+    <defs>
+        <path d="M332.566406,62.9980469 L337.15625,42.0507812 L329.685547,42.0507812 L329.685547,28.3300781 L346.726562,28.3300781 L346.726562,41.6113281 L340.085938,62.9980469 L332.566406,62.9980469 Z M361.179688,62.9980469 L365.769531,42.0507812 L358.298828,42.0507812 L358.298828,28.3300781 L375.339844,28.3300781 L375.339844,41.6113281 L368.699219,62.9980469 L361.179688,62.9980469 Z" id="path-1"></path>
+        <filter x="-9.9%" y="-4.3%" width="113.1%" height="117.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="-3" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Maritime-Solutions" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Destktop-//-Maritime-Solution" transform="translate(-428.000000, -1377.000000)" fill-rule="nonzero">
+            <g id="Section-/-Testimony-/-with-photo" transform="translate(102.000000, 1349.000000)">
+                <g id="’’">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#D70000" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
